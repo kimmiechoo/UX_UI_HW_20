@@ -3,23 +3,23 @@
     max-height: 100%;
 }
 .navbar-expand-lg{
-    background-image: url(/images/kimberly_rose_design_logo.png);
-    background-color: #638c80;
-}
-.navbar-light{
-    background-image: url(/images/kimberly_rose_design_logo.png);
-    background-color: #638c80;
+    background-color: #fbf1f4;
 }
 .bg-light{
-    background-image: url(/images/kimberly_rose_design_logo.png);
-    background-color: #638c80;
-    object-fit:contain;
-}
-.logo-image{
-    object-fit: contain; 
-    height: 75px;
-    width: 75px 
+    background-image: url(/images/logo.svg);
+    background-color: #fbf1f4;
+    padding: 25px;
+    background-position: top;
+    background-repeat: no-repeat;
 } 
+.mr-auto{
+    text-align: center;
+    font-family:serif;
+    font-size: 20px;
+}
+.nav-item{
+   background-color: #fbf1f4;
+}
 .jumbotron{
     background-image: url(/images/terrene_mountain.png);
     image-rendering: auto;
@@ -45,5 +45,23 @@ p{
 }
 .card-img-top{
     max-width: 100%;
-    max-height: height 100%;;
+    max-height: height 100%;
+}
+.container{
+    border:20px;
+}
+.prototype{
+    text-align: center;
+    color: #638c80;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    border-top: 10px;
+}
+footer{
+    justify-content:  center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+.mb-1{
+    justify-content: center;
 }
