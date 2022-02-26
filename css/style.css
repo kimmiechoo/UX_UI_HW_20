@@ -1,144 +1,49 @@
-html,*{
-  font: Playfair Display;
-  margin: 0;
-  padding: 0;
-  overflow-x: hidden;
-  scroll-behavior: smooth;
+.navbar{
+    max-width: 100%;
+    max-height: 100%;
 }
-
-body {
-  margin: 0;
+.navbar-expand-lg{
+    background-image: url(/images/kimberly_rose_design_logo.png);
+    background-color: #638c80;
 }
-header {
-  background-color: #DB636F;
-  width: auto;
-  height: 50px;
-  padding: 5px;
+.navbar-light{
+    background-image: url(/images/kimberly_rose_design_logo.png);
+    background-color: #638c80;
 }
-  header ul {
-  float: right;
-  color: white;
+.bg-light{
+    background-image: url(/images/kimberly_rose_design_logo.png);
+    background-color: #638c80;
+    object-fit:contain;
 }
-header li {
-  display: inline-block;
-  padding: 0px 5px;
+.logo-image{
+    object-fit: contain; 
+    height: 75px;
+    width: 75px 
+} 
+.jumbotron{
+    background-image: url(/images/terrene_mountain.png);
+    image-rendering: auto;
 }
-header p {
-  display: inline-block;
+.display-4{
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: #ffffff;
+    padding: auto;
 }
-img{
-  max-width: 100%;
-  max-height: 100;
+.lead{
+    color: #ffffff;
+    text-align: center;
 }
-.heroImg {
-  background-color: #FBF1F4;
-  padding: 100px 15px;
+p{
+    color: #ffffff;
+    text-align: center;
 }
-.content {
-  max-width: 300px;
-  margin: 0 auto;
-  padding: 50px;
-  background-color: #FFFFFF;
-  text-align: center;
+.btn{
+    background-color: #638c80;
+    color: #ffffff;
+    border-color: #FFFFFf;
 }
-.flex-parent{
-  display:flex
-}
-.logo-img{
-  display: flex;
-  justify-content: center;
-}
-.banner-button{
-  justify-content: center;
-}
-button {
-  padding: 15px;
-  background-color: #DB636F;
-  color: white;
-  font-size: 15px;
-  border-radius: 4px;
-  margin-right:15px;
-  padding: 12px 25px;
-  cursor: pointer;
-  min-width: 200px;
-  align-items: flex-start;
-}
-.secondary-button{
-  background: none;
-  border: 3px solid;
-  color: #DB636F;
-}
- 
-footer {
-  background-color: #DB636F;
-  padding: 5px;
-  color: white;
-}
-footer ul {
-  list-style: none;
-  padding-left: 5px;
-  text-align: center;
-}
-footer li {
-  display: inline-block;
-  padding: 0px 7px;
-  font-size: 25px;
-}
-.heading {
-  text-align: center;
-  padding: 15px 5px;
-  font-size: 30px;
-}
-/* My UX Skills Section */
-.flexContainer {
-  display: flex;
-  padding: 60px 30px;
-}
-.flexContainer div {
-  width: 33%;
-  padding: 25px;
-}
-
-/* My Work Section */
-.myWork {
-  padding: 60px 30px;
-  padding-top: 0;
-  background-color: #EBEBEB;
-}
-.workGrid {
-  display: grid;
-  grid-template-columns: 50% 50%;
-  grid-template-rows: 350px 350px 350px;
-  grid-template-areas:
-  "img1 content1"
-  "img2 content2"
-  "img3 content3"
-  ;
-}
-.workGrid img {
-  width: 100%;
-  max-width: 250px;
-  margin: 0 auto;
-  display: block;
-}
-.img1 {
-  grid-area: img1;
-}
-.img2 {
-  grid-area: img2;
-}
-.img3 {
-  grid-area: img3;
-}
-.img1, .img2, .img3, .content1, .content2, .content3 {
-  padding: 80px;
-}
-.content1 {
-  grid-area: content1;
-}
-.content2 {
-  grid-area: content2;
-}
-.content3 {
-  grid-area: content3;
+.card-img-top{
+    max-width: 100%;
+    max-height: height 100%;;
 }
